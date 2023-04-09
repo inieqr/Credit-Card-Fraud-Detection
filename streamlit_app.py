@@ -12,7 +12,7 @@ Credit card fraud is a form of identity theft that involves an unauthorized taki
 
 **This Streamlit App utilizes a Machine Learning model served as an API in order to detect fraudulent credit card transactions based on the following criteria: hours, type of transaction, amount, balance before and after transaction etc.** 
 
-The API was built with FastAPI and can be found [here.](https://myapi-production-f978.up.railway.app/)
+The API was built with FastAPI and can be found [here.](https://myapi-5nix.onrender.com/)
 
 """)
 
@@ -80,7 +80,7 @@ if st.button("Detection Result"):
     8. System Flag Fraud Status(Transaction amount greater than $200000): {isflaggedfraud}
                 """)
 
-    res = re.post(f"https://myapi-production-f978.up.railway.app/predict",json=values)
+    res = re.post(f"https://myapi-5nix.onrender.com/predict",json=values)
     json_str = json.dumps(res.json())
     resp = json.loads(json_str)
     
