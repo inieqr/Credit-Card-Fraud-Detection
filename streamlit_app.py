@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import requests as re
 
-st.markdown("<h1 style='text-align: center; color: #2a2b2a;'>CREDIT CARD FRAUD DETECTION WEB APP</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #2a2b2a;'>CREDIT CARD FRAUD DETECTION</h1>", unsafe_allow_html=True)
 
 #st.title("Credit Card Fraud Detection Web App")
 
