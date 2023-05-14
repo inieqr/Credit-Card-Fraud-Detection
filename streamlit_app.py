@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import requests as re
 
-st.markdown("<h1 style='text-align: center; color: #910c0c;'>CREDIT CARD FRAUD DETECTION</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #bd1111;'>CREDIT CARD FRAUD DETECTION</h1>", unsafe_allow_html=True)
 
 st.write(" ")
 
