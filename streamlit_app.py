@@ -16,10 +16,10 @@ Credit card fraud is the act of using another person’s credit card to make pur
  There is some overlap between identity theft and credit card theft. In fact, credit card theft is one of the most common forms of identity theft. In such cases, a fraudster uses an individual’s personal information, which is often stolen as part of a cyberattack or data breach, to open a new account that the victim does not know about. This activity is considered both identity fraud and credit card fraud.
 """)
 
-left_co, cent_co,last_co = st.columns(3)
-with cent_co:
-    st.image("image2.png")
-#st.image("image2.png")
+# left_co, cent_co,last_co = st.columns(3)
+# with cent_co:
+#     st.image("image2.png")
+st.image("image3.png")
 
 st.write("""
 **This Streamlit App utilizes a Machine Learning model served as an API in order to detect fraudulent credit card transactions based on the following criteria: hours, type of transaction, amount, balance before and after transaction etc.** 
