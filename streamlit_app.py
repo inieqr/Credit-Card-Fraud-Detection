@@ -4,6 +4,8 @@ import requests as re
 
 st.markdown("<h1 style='text-align: center; color: #2a2b2a;'>CREDIT CARD FRAUD DETECTION</h1>", unsafe_allow_html=True)
 
+st.write(" ")
+
 #st.title("Credit Card Fraud Detection Web App")
 
 st.image("image.jpg")
