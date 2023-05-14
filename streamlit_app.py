@@ -23,6 +23,12 @@ Credit card fraud is the act of using another person’s credit card to make pur
 st.image("image.jpg")
 
 st.write("""
+## What is Credit Card Fraud Detection?
+Credit card fraud detection is the collective term for the policies, tools, methodologies, and practices that credit card companies and financial institutions take to combat identity fraud and stop fraudulent transactions.  
+
+In recent years, as the amount of data has exploded and the number of payment card transactions has skyrocketed, credit fraud detection has become largely digitized and automated.. Most modern solutions leverage artificial intelligence (AI) and machine learning (ML) to manage data analysis, predictive modeling, decision-making, fraud alerts and remediation activity that occur when individual instances of credit card fraud are detected.  
+""")
+st.write("""
 **This Streamlit App utilizes a Machine Learning model served as an API in order to detect fraudulent credit card transactions based on the following criteria: hours, type of transaction, amount, balance before and after transaction etc.** 
 
 The API was built with FastAPI and can be found [here.](https://myapi-5nix.onrender.com/)
