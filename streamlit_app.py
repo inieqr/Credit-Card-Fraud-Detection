@@ -19,7 +19,7 @@ Credit card fraud is the act of using another person’s credit card to make pur
 # left_co, cent_co,last_co = st.columns(3)
 # with cent_co:
 #     st.image("image2.png")
-st.image("image3.png")
+st.image("image3.jpg")
 
 st.write("""
 **This Streamlit App utilizes a Machine Learning model served as an API in order to detect fraudulent credit card transactions based on the following criteria: hours, type of transaction, amount, balance before and after transaction etc.** 
