@@ -6,7 +6,7 @@ st.markdown("<h1 style='text-align: center; color: #2a2b2a;'>CREDIT CARD FRAUD D
 
 #st.title("Credit Card Fraud Detection Web App")
 
-st.image("image.png")
+st.image("image.jpg")
 
 st.write("""
 ## About
